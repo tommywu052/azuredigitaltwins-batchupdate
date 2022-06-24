@@ -1,5 +1,13 @@
 {
 	"name": "a9adf-dt",
+	"properties": {
+		"globalParameters": {
+			"digitaltwinsuri": {
+				"type": "string",
+				"value": "https://a9adt.api.wcus.digitaltwins.azure.net"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
