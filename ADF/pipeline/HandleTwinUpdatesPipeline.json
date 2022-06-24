@@ -105,6 +105,14 @@
 		"parameters": {
 			"TwinsMappingFile": {
 				"type": "string"
+			},
+			"digitaltwinsuri": {
+				"type": "string",
+				"defaultValue": "https://a9adt.api.wcus.digitaltwins.azure.net"
+			},
+			"blobstorage": {
+				"type": "string",
+				"defaultValue": "https://adt2etl.blob.core.windows.net"
 			}
 		},
 		"annotations": []
